@@ -1,6 +1,6 @@
-read -p "Enter your 1st Decimal Number: " num1
+read -p "Enter your 1st Float Number: " num1
 read -p "Enter which operation do you want to Perform(+ , - , * , /) " operation
-read -p "Enter your 2nd Decimal Number: " num2
+read -p "Enter your 2nd Float Number: " num2
 
 Result=$(bc<<<"scale=3;${num1}${operation}${num2}")
 
