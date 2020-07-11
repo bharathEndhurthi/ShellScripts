@@ -1,0 +1,7 @@
+read -p "Enter your 1st Decimal Number: " num1
+read -p "Enter which operation do you want to Perform(+ , - , * , /) " operation
+read -p "Enter your 2nd Decimal Number: " num2
+
+((Result=${num1}${operation}${num2}))
+
+echo "Your Result for ${num1} ${operation} ${num2} is: ${Result}"

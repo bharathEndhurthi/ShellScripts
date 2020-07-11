@@ -16,5 +16,5 @@ cd /root/ShellScripts/apache-tomcat-${Version}/bin
 
 read -p  "Do you want to change Tomcat's PORT..?(y/n) " port
 
-[[ ${port} -eq "y" ]] && vi /root/ShellScripts/apache-tomcat-${Version}/conf/server.xml || echo "you have choosen Default Port for your Tomcat"
+[[ ${port} == "y" ]] && vi /root/ShellScripts/apache-tomcat-${Version}/conf/server.xml || echo "you have choosen Default Port for your Tomcat"
 
